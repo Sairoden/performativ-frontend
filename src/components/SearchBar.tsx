@@ -29,8 +29,6 @@ export default function SearchBar({ onSearch }: SearchBarProps) {
       />
 
       <motion.button
-        whileHover={{ scale: 1.1 }}
-        whileTap={{ scale: 0.9 }}
         type="submit"
         className="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-400 hover:text-[#6C5CE7] transition duration-300 ease-in-out"
       >
